@@ -1,0 +1,25 @@
+
+h2{
+  font-size: 18px;
+  font-family: verdana,sans-serif;
+  margin-block-start: 2em;
+  margin-block-end: 5em;
+}
+
+.column {
+  float: left;
+  max-width: 20%;
+  margin: 5px;
+
+  padding: 0px;
+  border:2px solid #555;
+}
+.row{
+  position:absolute;
+  left:80px;
+  top:80px;
+  border:2px solid #555;
+  box-sizing: border-box;
+  width: 1200px;
+  height:250px;
+}

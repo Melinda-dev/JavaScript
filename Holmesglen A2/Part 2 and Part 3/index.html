@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Class</title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+<body>
+    <div class="section">
+        <h2>Student Class</h2>
+        <div class="controls">
+            <form id="form-list-control">
+                <input type="text" placeholder="studentID..." name="search-integer">
+                <button type="button" name="btn-search" onclick="searchClick();">Search</button>
+                <button type="button" name="btn-display" onclick="refreshClick();">Refresh</button>
+                <button type="button" name="btn-ascending" onclick="ascendingClick();">Ascending</button>
+            </form>
+        </div>
+
+
+        <div class="list" id="studentlist">
+        </div>
+
+
+        <div class="section">
+            <h3>Add a student</h3>
+              <form id="add_student_form">
+                <label>studentId </label>
+                <input type="text" placeholder="studentId..." name="studentId">
+                <br>
+                <label>firstName: </label>
+                <input type="text" placeholder="firstName..." name="firstName">
+                <br>
+                <label>lastName: </label>
+                <input type="text" placeholder="lastName..." name="lastName">
+                <br>
+                <label>Qualification: </label>
+                <input type="text" placeholder="Qualification..." name="Qualification">
+                <br>
+                <button type="button" name="submit" onclick="submitClick();">Submit</button>
+            </form>
+            <p id="msgAdd"></p>
+        </div>
+
+
+    </div>
+
+    <script src="myClass.js"></script>
+    <script src="myScript.js"></script>
+
+</body>
+</html>

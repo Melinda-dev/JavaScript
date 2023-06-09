@@ -1,0 +1,21 @@
+h2{
+  font-size: 18px;
+  font-family: verdana,sans-serif;
+  margin-block-start: 2em;
+  margin-block-end: 1em;
+}
+
+h3{
+  font-size: 15px;
+  font-family: verdana,sans-serif;
+  margin-block-start: 2em;
+  margin-block-end: 1em;
+}
+
+input{
+  font-size: 10px;
+  font-family: verdana,sans-serif;
+  margin-block-start: 2em;
+  margin-block-end: 1em;
+
+}
